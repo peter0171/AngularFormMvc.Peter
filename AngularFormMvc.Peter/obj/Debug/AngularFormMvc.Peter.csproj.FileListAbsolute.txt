@@ -27,6 +27,5 @@ G:\GitHubRespository\AngularFormMvc.Peter\AngularFormMvc.Peter\bin\System.Web.We
 G:\GitHubRespository\AngularFormMvc.Peter\AngularFormMvc.Peter\bin\System.Web.WebPages.Deployment.xml
 G:\GitHubRespository\AngularFormMvc.Peter\AngularFormMvc.Peter\bin\System.Web.WebPages.Razor.xml
 G:\GitHubRespository\AngularFormMvc.Peter\AngularFormMvc.Peter\bin\Antlr3.Runtime.pdb
-G:\GitHubRespository\AngularFormMvc.Peter\AngularFormMvc.Peter\obj\Debug\AngularFormMvc.Peter.csprojResolveAssemblyReference.cache
 G:\GitHubRespository\AngularFormMvc.Peter\AngularFormMvc.Peter\obj\Debug\AngularFormMvc.Peter.dll
 G:\GitHubRespository\AngularFormMvc.Peter\AngularFormMvc.Peter\obj\Debug\AngularFormMvc.Peter.pdb

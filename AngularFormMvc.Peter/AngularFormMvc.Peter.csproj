@@ -142,11 +142,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App\AngularFormApp.js" />
+    <Content Include="App\AngularFormsApp.js" />
     <Content Include="App\DataService.js" />
     <Content Include="App\EmployeeForm\efController.js" />
     <Content Include="App\EmployeeForm\efDirective.js" />
     <Content Include="App\EmployeeForm\efTemplate.html" />
+    <Content Include="App\Home.html" />
     <Content Include="App\ValidationDirective.js" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\app.css" />
