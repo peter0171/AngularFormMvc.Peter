@@ -1,5 +1,5 @@
 ﻿
-var App = angular.module('angularFormsApp', ["ngRoute"]);
+var App = angular.module('angularFormsApp', ["ngRoute","ui.bootstrap"]);
 
 App.config(["$routeProvider", "$locationProvider",
     function ($routeProvider, $locationProvider) {
@@ -7,6 +7,14 @@ App.config(["$routeProvider", "$locationProvider",
         .when("/home", {
             templateUrl: "App/Home.html",
             controller: "HomeController"
+        })
+            .when("/newEmployeeForm", {
+            templateUrl: "app/EmployeeForm/efTemplate.html",
+            controller: "efController"
+        })
+        .when("/updateEmployeeForm/:id", {
+            templateUrl: "app/EmployeeForm/efTemplate.html",
+            controller: "efController"
         })
         .otherwise({
             redirectTo: "/home"
@@ -17,7 +25,13 @@ App.config(["$routeProvider", "$locationProvider",
 App.controller("HomeController",
     ["$scope", "$location", 
     function ($scope, $location) {
-  
+        $scope.showCreateEmployeeForm = function () {
+            $location.path('/newEmployeeForm');
+        };
+
+        $scope.showUpdateEmployeeForm = function (id) {
+            $location.path('/updateEmployeeForm/' + id)
+        };
 
     }]);
 

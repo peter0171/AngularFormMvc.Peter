@@ -1,1 +1,79 @@
-﻿
+﻿<form class="form-horizontal" name="employeeForm" novalidate role="form">
+
+    <fieldset>
+        <legend>Basic Information</legend>
+        <div class="form-group" >
+            <label for="fullName" class="col-sm-3 control-label">Name</label>
+            <div class="col-sm-9">
+                <input type="text" id="fullName" name="fullName" class="form-control"
+                      
+                       />
+                <span class="help-block"
+                     >Full Name is required</span>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="notes" class="col-sm-3 control-label">Notes</label>
+            <div class="col-sm-9">
+                <textarea name="notes" id="notes" class="form-control" rows="5" cols="40"
+                         ></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="department" class="col-sm-3 control-label">Department</label>
+            <div class="col-sm-9">
+                <select name="department" id="department" class="form-control"
+                      
+                      ></select>
+            </div>
+        </div>
+
+    </fieldset>
+    <br />
+
+
+
+    <fieldset>
+        <legend>Payroll Type</legend>
+        <div class="form-group">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-9">
+
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="payrollType" value="w2"
+                           /> W-2
+                    </label><br />
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="payrollType" value="ten99"
+                            /> 1099
+                    </label><br />
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="payrollType" value="none"
+                              /> None
+                    </label><br />
+                </div>
+                <br />
+
+            </div>
+        </div>
+    </fieldset>
+
+    <div class="col-sm-offset-3 col-sm-9">
+        <input type="button" class="btn btn-default" value="Cancel"
+             />
+        <input type="submit" class="btn btn-primary" value="Submit"
+              />
+        <input type="reset" class="btn btn-warning" value="Reset"
+               />
+        <!--<div class="alert alert-danger" >{{formErrors}}</div>-->
+    </div>
+
+</form>
